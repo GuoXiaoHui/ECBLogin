@@ -15,6 +15,8 @@
 		52FCD25F1CF6F94C009B2A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FCD25D1CF6F94C009B2A1B /* LaunchScreen.storyboard */; };
 		52FCD26A1CF6F94C009B2A1B /* ECBLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2691CF6F94C009B2A1B /* ECBLoginTests.m */; };
 		52FCD2751CF6F94C009B2A1B /* ECBLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2741CF6F94C009B2A1B /* ECBLoginUITests.m */; };
+		52FCD2851CF6F9A7009B2A1B /* ECBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2841CF6F9A7009B2A1B /* ECBLoginController.m */; };
+		52FCD2881CF6F9B4009B2A1B /* ECBRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2871CF6F9B4009B2A1B /* ECBRegisterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		52FCD2701CF6F94C009B2A1B /* ECBLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCD2741CF6F94C009B2A1B /* ECBLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBLoginUITests.m; sourceTree = "<group>"; };
 		52FCD2761CF6F94C009B2A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FCD2831CF6F9A7009B2A1B /* ECBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBLoginController.h; sourceTree = "<group>"; };
+		52FCD2841CF6F9A7009B2A1B /* ECBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBLoginController.m; sourceTree = "<group>"; };
+		52FCD2861CF6F9B4009B2A1B /* ECBRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRegisterController.h; sourceTree = "<group>"; };
+		52FCD2871CF6F9B4009B2A1B /* ECBRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRegisterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		52FCD2431CF6F94C009B2A1B = {
 			isa = PBXGroup;
 			children = (
+				52FCD2821CF6F980009B2A1B /* ECBLoginApp */,
 				52FCD24E1CF6F94C009B2A1B /* ECBLogin */,
 				52FCD2681CF6F94C009B2A1B /* ECBLoginTests */,
 				52FCD2731CF6F94C009B2A1B /* ECBLoginUITests */,
@@ -138,6 +145,17 @@
 				52FCD2761CF6F94C009B2A1B /* Info.plist */,
 			);
 			path = ECBLoginUITests;
+			sourceTree = "<group>";
+		};
+		52FCD2821CF6F980009B2A1B /* ECBLoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				52FCD2831CF6F9A7009B2A1B /* ECBLoginController.h */,
+				52FCD2841CF6F9A7009B2A1B /* ECBLoginController.m */,
+				52FCD2861CF6F9B4009B2A1B /* ECBRegisterController.h */,
+				52FCD2871CF6F9B4009B2A1B /* ECBRegisterController.m */,
+			);
+			path = ECBLoginApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FCD2571CF6F94C009B2A1B /* ViewController.m in Sources */,
+				52FCD2881CF6F9B4009B2A1B /* ECBRegisterController.m in Sources */,
 				52FCD2541CF6F94C009B2A1B /* AppDelegate.m in Sources */,
+				52FCD2851CF6F9A7009B2A1B /* ECBLoginController.m in Sources */,
 				52FCD2511CF6F94C009B2A1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
