@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52061FEA1CFC3FA5003E6C6D /* ECBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FE71CFC3FA5003E6C6D /* ECBLoginController.m */; };
-		52061FEB1CFC3FA5003E6C6D /* ECBRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FE91CFC3FA5003E6C6D /* ECBRegisterController.m */; };
+		52061FF11CFC4200003E6C6D /* ECBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FEE1CFC4200003E6C6D /* ECBLoginController.m */; };
+		52061FF21CFC4200003E6C6D /* ECBRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FF01CFC4200003E6C6D /* ECBRegisterController.m */; };
 		52FCD2511CF6F94C009B2A1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2501CF6F94C009B2A1B /* main.m */; };
 		52FCD2541CF6F94C009B2A1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2531CF6F94C009B2A1B /* AppDelegate.m */; };
 		52FCD2571CF6F94C009B2A1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2561CF6F94C009B2A1B /* ViewController.m */; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52061FE61CFC3FA5003E6C6D /* ECBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBLoginController.h; sourceTree = "<group>"; };
-		52061FE71CFC3FA5003E6C6D /* ECBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBLoginController.m; sourceTree = "<group>"; };
-		52061FE81CFC3FA5003E6C6D /* ECBRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRegisterController.h; sourceTree = "<group>"; };
-		52061FE91CFC3FA5003E6C6D /* ECBRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRegisterController.m; sourceTree = "<group>"; };
+		52061FED1CFC4200003E6C6D /* ECBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBLoginController.h; sourceTree = "<group>"; };
+		52061FEE1CFC4200003E6C6D /* ECBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBLoginController.m; sourceTree = "<group>"; };
+		52061FEF1CFC4200003E6C6D /* ECBRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRegisterController.h; sourceTree = "<group>"; };
+		52061FF01CFC4200003E6C6D /* ECBRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRegisterController.m; sourceTree = "<group>"; };
 		52FCD24C1CF6F94C009B2A1B /* ECBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCD2501CF6F94C009B2A1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52FCD2521CF6F94C009B2A1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,13 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52061FE51CFC3FA5003E6C6D /* ECBLoginApp */ = {
+		52061FEC1CFC41FF003E6C6D /* ECBLoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				52061FE61CFC3FA5003E6C6D /* ECBLoginController.h */,
-				52061FE71CFC3FA5003E6C6D /* ECBLoginController.m */,
-				52061FE81CFC3FA5003E6C6D /* ECBRegisterController.h */,
-				52061FE91CFC3FA5003E6C6D /* ECBRegisterController.m */,
+				52061FED1CFC4200003E6C6D /* ECBLoginController.h */,
+				52061FEE1CFC4200003E6C6D /* ECBLoginController.m */,
+				52061FEF1CFC4200003E6C6D /* ECBRegisterController.h */,
+				52061FF01CFC4200003E6C6D /* ECBRegisterController.m */,
 			);
 			path = ECBLoginApp;
 			sourceTree = "<group>";
@@ -98,7 +98,6 @@
 		52FCD2431CF6F94C009B2A1B = {
 			isa = PBXGroup;
 			children = (
-				52061FE51CFC3FA5003E6C6D /* ECBLoginApp */,
 				52FCD24E1CF6F94C009B2A1B /* ECBLogin */,
 				52FCD2681CF6F94C009B2A1B /* ECBLoginTests */,
 				52FCD2731CF6F94C009B2A1B /* ECBLoginUITests */,
@@ -119,6 +118,7 @@
 		52FCD24E1CF6F94C009B2A1B /* ECBLogin */ = {
 			isa = PBXGroup;
 			children = (
+				52061FEC1CFC41FF003E6C6D /* ECBLoginApp */,
 				52FCD2521CF6F94C009B2A1B /* AppDelegate.h */,
 				52FCD2531CF6F94C009B2A1B /* AppDelegate.m */,
 				52FCD2551CF6F94C009B2A1B /* ViewController.h */,
@@ -289,9 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FCD2571CF6F94C009B2A1B /* ViewController.m in Sources */,
+				52061FF21CFC4200003E6C6D /* ECBRegisterController.m in Sources */,
 				52FCD2541CF6F94C009B2A1B /* AppDelegate.m in Sources */,
-				52061FEB1CFC3FA5003E6C6D /* ECBRegisterController.m in Sources */,
-				52061FEA1CFC3FA5003E6C6D /* ECBLoginController.m in Sources */,
+				52061FF11CFC4200003E6C6D /* ECBLoginController.m in Sources */,
 				52FCD2511CF6F94C009B2A1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
