@@ -17,11 +17,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"登录";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIBarButtonItem *dismissItem = [[UIBarButtonItem alloc] initWithTitle:@"取消"
+                                                                    style:UIBarButtonItemStylePlain
+                                                                   target:self
+                                                                   action:@selector(dismissLoginNav)];
+    self.navigationItem.leftBarButtonItem = dismissItem;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UIBarButtonItem action
+
+- (void)dismissLoginNav
+{
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 /*
