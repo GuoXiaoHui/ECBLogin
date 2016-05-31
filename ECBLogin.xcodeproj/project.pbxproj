@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		52061FF81CFC451C003E6C6D /* ECBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FF51CFC451C003E6C6D /* ECBLoginController.m */; };
 		52061FF91CFC451C003E6C6D /* ECBRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52061FF71CFC451C003E6C6D /* ECBRegisterController.m */; };
-		5206203B1CFD2FC1003E6C6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5206203A1CFD2FC1003E6C6D /* ViewController.m */; };
+		5206203E1CFD3195003E6C6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5206203D1CFD3195003E6C6D /* ViewController.m */; };
 		52FCD2511CF6F94C009B2A1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2501CF6F94C009B2A1B /* main.m */; };
 		52FCD2541CF6F94C009B2A1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD2531CF6F94C009B2A1B /* AppDelegate.m */; };
 		52FCD25A1CF6F94C009B2A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FCD2581CF6F94C009B2A1B /* Main.storyboard */; };
@@ -41,8 +41,8 @@
 		52061FF51CFC451C003E6C6D /* ECBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBLoginController.m; sourceTree = "<group>"; };
 		52061FF61CFC451C003E6C6D /* ECBRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRegisterController.h; sourceTree = "<group>"; };
 		52061FF71CFC451C003E6C6D /* ECBRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRegisterController.m; sourceTree = "<group>"; };
-		520620391CFD2FC1003E6C6D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5206203A1CFD2FC1003E6C6D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5206203C1CFD3195003E6C6D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5206203D1CFD3195003E6C6D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52FCD24C1CF6F94C009B2A1B /* ECBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCD2501CF6F94C009B2A1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52FCD2521CF6F94C009B2A1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,8 +87,6 @@
 		52061FF31CFC451C003E6C6D /* ECBLoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				520620391CFD2FC1003E6C6D /* ViewController.h */,
-				5206203A1CFD2FC1003E6C6D /* ViewController.m */,
 				52061FF41CFC451C003E6C6D /* ECBLoginController.h */,
 				52061FF51CFC451C003E6C6D /* ECBLoginController.m */,
 				52061FF61CFC451C003E6C6D /* ECBRegisterController.h */,
@@ -123,6 +121,8 @@
 			children = (
 				52FCD2521CF6F94C009B2A1B /* AppDelegate.h */,
 				52FCD2531CF6F94C009B2A1B /* AppDelegate.m */,
+				5206203C1CFD3195003E6C6D /* ViewController.h */,
+				5206203D1CFD3195003E6C6D /* ViewController.m */,
 				52FCD2581CF6F94C009B2A1B /* Main.storyboard */,
 				52FCD25B1CF6F94C009B2A1B /* Assets.xcassets */,
 				52FCD25D1CF6F94C009B2A1B /* LaunchScreen.storyboard */,
@@ -292,7 +292,7 @@
 				52FCD2541CF6F94C009B2A1B /* AppDelegate.m in Sources */,
 				52061FF81CFC451C003E6C6D /* ECBLoginController.m in Sources */,
 				52FCD2511CF6F94C009B2A1B /* main.m in Sources */,
-				5206203B1CFD2FC1003E6C6D /* ViewController.m in Sources */,
+				5206203E1CFD3195003E6C6D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
