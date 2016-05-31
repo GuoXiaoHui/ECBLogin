@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
                     ecb login block
                    DESC
   s.platform     = :ios, "7.0"
-  s.homepage     = "https://github.com/GuoXiaoHui/ECBLogin"
+  s.homepage     = "https://github.com/ios-xiaohui01/ECBLogin"
   s.license      = "MIT"
   s.author       = { "GuoXiaoHui" => "gxhxl666@sina.com" }
-  s.source       = { :git => "https://github.com/GuoXiaoHui/ECBLogin.git", :tag => s.version.to_s}
+  s.source       = { :git => "https://github.com/ios-xiaohui01/ECBLogin.git", :tag => s.version.to_s}
   s.source_files  = 'ECBLoginApp/*.{h,m}'
   s.requires_arc = true
 end
